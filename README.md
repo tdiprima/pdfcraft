@@ -94,4 +94,21 @@ pdfcraft pdf-to-text path/to/file.pdf --verbose
 
 **Log level** can also be set via the `LOG_LEVEL` environment variable (`DEBUG`, `INFO`, `WARNING`).
 
+<!--
+Tests:
+
+uv sync
+uv run pytest
+
+Verbose output:
+
+uv run pytest -v
+
+Run one file:
+
+uv run pytest tests/test_md_to_pdf.py -v
+
+Note: test_convert_file_produces_pdf and test_convert_directory_converts_all require WeasyPrint + Pango installed. All utils/pure-logic tests run without system deps.
+-->
+
 <br>
