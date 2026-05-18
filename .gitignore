@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# IDE
+.vscode/
+.ruff_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Claude Code
+.claude/
+
+# uv
+uv.lock
+
+# Generated output (keep examples/ but ignore loose artifacts)
+examples/output/*.pdf
+examples/output/*.txt
