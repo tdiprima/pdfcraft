@@ -39,7 +39,7 @@ INFO Done. Converted 2 file(s), 0 error(s).
 
 ## Usage
 
-**Install**
+### Install
 
 ```bash
 uv sync
@@ -61,7 +61,13 @@ For emoji rendering on Linux:
 sudo apt install fonts-noto-color-emoji
 ```
 
-**Markdown to PDF**
+Pip install
+
+```sh
+pip install -e .
+```
+
+### Markdown to PDF
 
 ```bash
 # PDFs written alongside the .md files
@@ -71,7 +77,7 @@ pdfcraft md-to-pdf /path/to/docs
 pdfcraft md-to-pdf /path/to/docs --output-dir /path/to/pdfs
 ```
 
-**PDF to text**
+### PDF to text
 
 ```bash
 # Extract text, tables, and image OCR
@@ -84,7 +90,7 @@ OPENAI_API_KEY=sk-... pdfcraft pdf-to-text path/to/file.pdf --summarize
 pdfcraft pdf-to-text path/to/file.pdf --verbose
 ```
 
-**Flags**
+### Flags
 
 | Command | Flag | Description |
 |---|---|---|
